@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM openjdk:8-jre
 
 MAINTAINER Marc Navarro https://github.com/morfeo8marc
 
@@ -16,7 +16,7 @@ RUN wget https://github.com/junegunn/redis-stat/releases/download/0.4.11/redis-s
 
 WORKDIR /redis-stat
 
-EXPOSE 8080
+EXPOSE 63790
 
 ADD run.sh /redis-stat/
 
