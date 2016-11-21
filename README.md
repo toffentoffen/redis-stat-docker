@@ -4,7 +4,7 @@ A docker based image for [the redis-stat](https://github.com/junegunn/redis-stat
 ## Quickstart
 Pull the image from the docker hub with:
 ```
-docker pull morfe8marc/redis-stat-docker
+docker pull morfeo8marc/redis-stat-docker
 ```
 
 ## Building the image.
